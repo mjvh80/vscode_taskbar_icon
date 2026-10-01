@@ -1,0 +1,31 @@
+{
+  "name": "peacock-taskbar-icon",
+  "displayName": "Peacock Taskbar Icon",
+  "description": "Prefixes the window title with an emoji matching the Peacock title bar color, so windows are distinguishable in the taskbar.",
+  "version": "0.0.3",
+  "publisher": "local",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "peacockTaskbarIcon.refresh",
+        "title": "Peacock Taskbar Icon: Refresh Window Title"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\"",
+    "build-palette": "node tools/build-palette.js",
+    "show-matches": "node tools/show-matches.js"
+  }
+}
