@@ -2,6 +2,8 @@
 
 Prefixes the VS Code window title with an emoji chosen to resemble the current Peacock title-bar colour. This makes windows easier to distinguish in the Windows taskbar.
 
+![VS Code windows marked with coloured emojis in the Windows taskbar](assets/taskbar_example.png)
+
 ## Use
 
 Install the extension and set a title template in your VS Code user settings if you want to control the rest of the title:
